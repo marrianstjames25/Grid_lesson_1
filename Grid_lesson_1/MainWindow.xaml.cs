@@ -39,7 +39,7 @@ namespace Grid_lesson_1
 
             }
 
-            else if(txtFirstName==null || TxtLasName==null || txtUsername==null)
+            else if(txtFirstName.Text=="" || TxtLasName.Text=="" || txtUsername.Text=="")
             {
                 MessageBox.Show("You cannot leave Username, Last Name and FirstName empty. Try again.", "Error", MessageBoxButton.OKCancel, MessageBoxImage.Error);
             }
