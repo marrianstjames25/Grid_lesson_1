@@ -6,10 +6,7 @@
         xmlns:local="clr-namespace:Grid_lesson_1"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="500">
-    <Grid>
-        <Grid.Background>
-            <ImageBrush ImageSource="/0a4ce1c0-774a-11ee-8a00-c56a808f54b5_gallery.jpg"/>
-        </Grid.Background>
+    <Grid Background="#FFCFD5A1">
         <Grid.RowDefinitions>
             <RowDefinition  Height="*"/>
             <RowDefinition Height="*"/>
@@ -19,7 +16,7 @@
             <RowDefinition Height="*"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
-        
+
         <!-- Contents 00 -->
 
         <Label Content="Sign Up" Grid.Row="0"
