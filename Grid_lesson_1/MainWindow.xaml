@@ -19,7 +19,8 @@
             <RowDefinition Height="*"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
-        <!-- Contents -->
+        
+        <!-- Contents 00 -->
 
         <Label Content="Sign Up" Grid.Row="0"
                FontFamily="Verdana" FontSize="25" Background="olive" HorizontalContentAlignment="Center" VerticalContentAlignment="center" Height="70" Foreground="white"/>
